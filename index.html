@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!--<link rel="stylesheet" href="style.css"/>-->
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <title>Indovina i numeri</title>
+    </head>
+
+    <body onload="init()">
+        <div id="wrapper">
+			<h1>Indovina 3 numeri tra 1 e 9</h1>
+            <input type="text" name="txtN" id="txtN1"/>
+            <input type="text" name="txtN" id="txtN2" />
+            <input type="text" name="txtN" id="txtN3" />
+            <br />
+            <input type="button" value="Invia" id="btnInvia" onclick="controlla()" />
+            <input type="button" value="Rigioca" id="btnRigioca" onclick="rigioca()" />
+            <div>
+                I numeri esatti sono:
+                <input type="checkbox" name="chkN" disabled />
+                <input type="checkbox" name="chkN" disabled />
+                <input type="checkbox" name="chkN" disabled />
+            </div>
+        </div>
+    </body>
+</html>
